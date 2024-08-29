@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GatsEngine", "GatsEngine\GatsEngine.vcxproj", "{9196C581-A076-455A-A86C-BB1A54B431C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GatsEngine_Window", "GatsEngine_Window\GatsEngine_Window.vcxproj", "{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GatsEngine_SOURCE", "GatsEngine_SOURCE\GatsEngine_SOURCE.vcxitems", "{C14DEDD4-3351-4005-9DC8-EF32230FF2E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Debug|x64.ActiveCfg = Debug|x64
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Debug|x64.Build.0 = Debug|x64
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Debug|x86.Build.0 = Debug|Win32
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Release|x64.ActiveCfg = Release|x64
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Release|x64.Build.0 = Release|x64
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Release|x86.ActiveCfg = Release|Win32
+		{9196C581-A076-455A-A86C-BB1A54B431C5}.Release|x86.Build.0 = Release|Win32
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Debug|x64.ActiveCfg = Debug|x64
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Debug|x64.Build.0 = Debug|x64
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Debug|x86.ActiveCfg = Debug|Win32
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Debug|x86.Build.0 = Debug|Win32
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Release|x64.ActiveCfg = Release|x64
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Release|x64.Build.0 = Release|x64
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Release|x86.ActiveCfg = Release|Win32
+		{7AA0BFD7-74BD-4222-919B-2D6CDB93174D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0262180-6F72-4CB0-83CB-D137D80E95FF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		GatsEngine_SOURCE\GatsEngine_SOURCE.vcxitems*{7aa0bfd7-74bd-4222-919b-2d6cdb93174d}*SharedItemsImports = 4
+		GatsEngine_SOURCE\GatsEngine_SOURCE.vcxitems*{c14dedd4-3351-4005-9dc8-ef32230ff2e3}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal

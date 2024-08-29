@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{c14dedd4-3351-4005-9dc8-ef32230ff2e3}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)gaApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)gaEntity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)gaGameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)gaInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)gaScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)gaSceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)gaTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)gaApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)gaEntity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)gaGameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)gaInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)gaScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)gaSceneManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)gaTime.cpp" />
+  </ItemGroup>
+</Project>
